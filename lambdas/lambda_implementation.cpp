@@ -23,8 +23,8 @@ int main(){
   std::vector<int> v{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
   auto const divisible = 2;
   
-  auto even_lambda = [](auto const & e){
-    return e % 2 == 0;
+  auto even_lambda = [&divisible](auto const & e){
+    return e % divisible == 0;
   };
   __even_lambda_1__<int> lam(divisible);
 
