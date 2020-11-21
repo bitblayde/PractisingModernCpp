@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 
-
 // Aproximated lambda generated implementation by compiler.
 template <typename T>
 struct __even_lambda_1__{
